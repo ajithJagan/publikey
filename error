@@ -1,0 +1,5 @@
+WARN[0000] Failed to set up SSH tunneling for host [172.25.220.224]: Can't establish dialer connection: Error while reading SSH key file: open /home/woker1/.ssh/id_rsa.pub: no such file or directory 
+WARN[0000] Failed to set up SSH tunneling for host [172.25.209.12]: Can't retrieve Docker Info: error during connect: Get "http://%2Fvar%2Frun%2Fdocker.sock/v1.24/info": Unable to access node with address [172.25.209.12:2222] using SSH. Please check if the configured key or specified key file is a valid SSH Private Key. Error: Error configuring SSH: ssh: no key found 
+WARN[0000] Removing host [172.25.220.224] from node lists 
+WARN[0000] Removing host [172.25.209.12] from node lists 
+FATA[0000] Cluster must have at least one etcd plane host: failed to connect to the following etcd host(s) [] 

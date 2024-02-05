@@ -1,0 +1,14 @@
+nodes:
+    - address: 172.25.220.224
+      user: worker1
+      role:
+      - controlplane
+      - etcd
+      - worker
+      ssh_key_path: "/home/worker1/.ssh/id_rsa"
+      labels:
+        app: ingress
+ingress:
+  provider: nginx
+  node_selector:
+    app: ingress
